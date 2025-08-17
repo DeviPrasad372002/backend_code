@@ -16,12 +16,13 @@ spec:
     spec:
       containers:
         - name: backend-image
-          image: deviprasad3722/backend:latest
+          image: prasadacr.azurecr.io/backend:latest
           ports:
             - containerPort: 8000
           env:
             - name: DATABASE_URL
-              value: postgresql://postgres:Devi3722%23@database-1.cq9ga4e6qc8q.us-east-1.rds.amazonaws.com:5432/mydb
+              value: mssql+pyodbc://prasad:Ahens6372%23@prasad-server.database.windows.net:1433/prasad-db?driver=ODBC+Driver+18+for+SQL+Server&Encrypt=yes&TrustServerCertificate=no
+
 
 ---
 
