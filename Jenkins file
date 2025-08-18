@@ -13,7 +13,9 @@ pipeline {
     stages {
         stage('Checkout Backend') {
             steps {
-                git branch: 'main', url: 'https://github.com/DeviPrasad372002/backend_code.git'
+                git branch: 'main',
+                    credentialsId: 'github-creds',      // Use GitHub PAT here
+                    url: 'https://github.com/DeviPrasad372002/backend_code.git'
             }
         }
 
