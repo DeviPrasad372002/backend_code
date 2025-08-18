@@ -7,7 +7,7 @@ pipeline {
         AKS_RG = "prasad-rg"
         AKS_CLUSTER = "prasad-aks"
         IMAGE_NAME = "backend"
-        DOCKER_CREDENTIALS = credentials('acr-creds')
+        DOCKER_CREDENTIALS = credentials('acr-creds') // Jenkins credential with ACR username/password
     }
 
     stages {
@@ -40,7 +40,6 @@ pipeline {
                     sh """
                     az aks get-credentials --resource-group ${AKS_RG} --name ${AKS_CLUSTER} --overwrite-existing
 
-                    # Check if deployment exists
                     if kubectl get deployment backend > /dev/null 2>&1; then
                         echo "🔄 Updating existing backend deployment..."
                         kubectl set image deployment/backend backend-image=${BACKEND_TAG} --record
