@@ -1,0 +1,111 @@
+{
+  "source_files": {
+    "database.py": "1f9ff9a9235d0e5b",
+    "main.py": "777685089434e19a",
+    "routers/cart.py": "c8ce37cdb7c041d4",
+    "routers/products.py": "5a1c27a6821d304e",
+    "routers/auth.py": "f0e30af16a3b6748",
+    "routers/orders.py": "44148bd04fbc42f9",
+    "models/db_models.py": "05e4103d851031b3",
+    "models/schemas.py": "fe5c3eebe42f5691"
+  },
+  "test_mapping": {
+    "main.py": [
+      "test_unit_coverage_20250925_175556_01.py",
+      "test_unit_coverage_20250925_175556_02.py",
+      "test_unit_coverage_20250925_175556_03.py",
+      "test_unit_coverage_20250925_175556_04.py",
+      "test_integ_coverage_20250925_175556_01.py",
+      "test_integ_coverage_20250925_175556_02.py",
+      "test_integ_coverage_20250925_175556_03.py",
+      "test_integ_coverage_20250925_175556_04.py",
+      "test_e2e_coverage_20250925_175556_01.py",
+      "test_e2e_coverage_20250925_175556_02.py"
+    ],
+    "routers/cart.py": [
+      "test_unit_coverage_20250925_175556_01.py",
+      "test_unit_coverage_20250925_175556_02.py",
+      "test_unit_coverage_20250925_175556_03.py",
+      "test_unit_coverage_20250925_175556_04.py",
+      "test_integ_coverage_20250925_175556_01.py",
+      "test_integ_coverage_20250925_175556_02.py",
+      "test_integ_coverage_20250925_175556_03.py",
+      "test_integ_coverage_20250925_175556_04.py",
+      "test_e2e_coverage_20250925_175556_01.py",
+      "test_e2e_coverage_20250925_175556_02.py"
+    ],
+    "routers/products.py": [
+      "test_unit_coverage_20250925_175556_01.py",
+      "test_unit_coverage_20250925_175556_02.py",
+      "test_unit_coverage_20250925_175556_03.py",
+      "test_unit_coverage_20250925_175556_04.py",
+      "test_integ_coverage_20250925_175556_01.py",
+      "test_integ_coverage_20250925_175556_02.py",
+      "test_integ_coverage_20250925_175556_03.py",
+      "test_integ_coverage_20250925_175556_04.py",
+      "test_e2e_coverage_20250925_175556_01.py",
+      "test_e2e_coverage_20250925_175556_02.py"
+    ],
+    "routers/orders.py": [
+      "test_unit_coverage_20250925_175556_01.py",
+      "test_unit_coverage_20250925_175556_02.py",
+      "test_unit_coverage_20250925_175556_03.py",
+      "test_unit_coverage_20250925_175556_04.py",
+      "test_integ_coverage_20250925_175556_01.py",
+      "test_integ_coverage_20250925_175556_02.py",
+      "test_integ_coverage_20250925_175556_03.py",
+      "test_integ_coverage_20250925_175556_04.py",
+      "test_e2e_coverage_20250925_175556_01.py",
+      "test_e2e_coverage_20250925_175556_02.py"
+    ],
+    "models/schemas.py": [
+      "test_unit_coverage_20250925_175556_01.py",
+      "test_unit_coverage_20250925_175556_02.py",
+      "test_unit_coverage_20250925_175556_03.py",
+      "test_unit_coverage_20250925_175556_04.py",
+      "test_integ_coverage_20250925_175556_01.py",
+      "test_integ_coverage_20250925_175556_02.py",
+      "test_integ_coverage_20250925_175556_03.py",
+      "test_integ_coverage_20250925_175556_04.py",
+      "test_e2e_coverage_20250925_175556_01.py",
+      "test_e2e_coverage_20250925_175556_02.py"
+    ],
+    "database.py": [
+      "test_unit_coverage_20250925_175556_01.py",
+      "test_unit_coverage_20250925_175556_02.py",
+      "test_unit_coverage_20250925_175556_03.py",
+      "test_unit_coverage_20250925_175556_04.py",
+      "test_integ_coverage_20250925_175556_01.py",
+      "test_integ_coverage_20250925_175556_02.py",
+      "test_integ_coverage_20250925_175556_03.py",
+      "test_integ_coverage_20250925_175556_04.py",
+      "test_e2e_coverage_20250925_175556_01.py",
+      "test_e2e_coverage_20250925_175556_02.py"
+    ],
+    "models/db_models.py": [
+      "test_unit_coverage_20250925_175556_01.py",
+      "test_unit_coverage_20250925_175556_02.py",
+      "test_unit_coverage_20250925_175556_03.py",
+      "test_unit_coverage_20250925_175556_04.py",
+      "test_integ_coverage_20250925_175556_01.py",
+      "test_integ_coverage_20250925_175556_02.py",
+      "test_integ_coverage_20250925_175556_03.py",
+      "test_integ_coverage_20250925_175556_04.py",
+      "test_e2e_coverage_20250925_175556_01.py",
+      "test_e2e_coverage_20250925_175556_02.py"
+    ],
+    "routers/auth.py": [
+      "test_unit_coverage_20250925_175556_01.py",
+      "test_unit_coverage_20250925_175556_02.py",
+      "test_unit_coverage_20250925_175556_03.py",
+      "test_unit_coverage_20250925_175556_04.py",
+      "test_integ_coverage_20250925_175556_01.py",
+      "test_integ_coverage_20250925_175556_02.py",
+      "test_integ_coverage_20250925_175556_03.py",
+      "test_integ_coverage_20250925_175556_04.py",
+      "test_e2e_coverage_20250925_175556_01.py",
+      "test_e2e_coverage_20250925_175556_02.py"
+    ]
+  },
+  "generated_at": 1758823739.761469
+}
